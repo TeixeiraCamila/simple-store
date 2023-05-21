@@ -3,7 +3,7 @@ const createNav = () => {
   let nav = document.querySelector('.navbar');
   nav.innerHTML = `
   <div class="nav container">
-  <img src="./img/dark-logo.png" alt="" class="brand_logo">
+  <img src="./img/dark-logo.png" alt="Logo - dark version" class="brand_logo">
   <div class="nav_items">
     <div class="nav_search">
       <input type="text" name="" id="" class="search_box" placeholder="search brand, product">
