@@ -7,10 +7,10 @@ productContainer.forEach((item, i) => {
   let containerDimenstions = item.getBoundingClientRect().width;
 
   nextBtn[i].addEventListener('click', () => {
-    item.scrollLeft += (containerDimenstions /2)
+    item.scrollLeft += containerDimenstions;
   });
 
   prevBtn[i].addEventListener('click', () => {
-    item.scrollLeft -= (containerDimenstions /2)
+    item.scrollLeft -= containerDimenstions;
   });
 });
