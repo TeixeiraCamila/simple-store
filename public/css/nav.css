@@ -26,16 +26,25 @@
   display: flex;
   justify-content: space-between;
 }
-.brand_logo {
-  height: 60px;
-}
 .nav_items {
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
-.nav_search {
-  width: 500px;
+.nav_items > div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_brand_logo img {
+  height: 60px;
+}
+.nav_items > .nav_links {
+  justify-content: flex-end;
+}
+.nav_items > .nav_links a {
+  margin-left: 2rem;
 }
 .search_box {
   width: 80%;
@@ -47,7 +56,7 @@
   color: #a9a9a9;
 }
 .search_button {
-  width: 20%;
+  width: 30%;
   height: 40px;
   padding: 10px 20px;
   cursor: pointer;
