@@ -1,0 +1,21 @@
+.search_results {
+  width: 100%;
+  padding: 60px 0;
+}
+.search_results  .heading  {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 40px;
+
+}
+.search_results  .heading span {
+  font-weight: 700;
+}
+
+.search_results .product_container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height: auto;
+  row-gap: 40px;
+}

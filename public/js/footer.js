@@ -2,6 +2,7 @@
 const createFooter = () => {
   let footer = document.querySelector('.footer');
   footer.innerHTML = `
+  <div class="container">
   <div class="footer_content">
       <img src="./img/light-logo.png" class="logo" alt="">
       <div class="footer_ul_container">
@@ -62,6 +63,7 @@ const createFooter = () => {
           <img src="./img/instagram_color.png" alt="">
         </a>
       </div>
+    </div>
     </div>
   `;
 };
