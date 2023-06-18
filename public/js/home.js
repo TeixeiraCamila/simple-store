@@ -7,6 +7,7 @@ productContainer.forEach((item, i) => {
   let containerDimenstions = item.getBoundingClientRect().width;
 
   nextBtn[i].addEventListener('click', () => {
+    console.log(i);
     item.scrollLeft += containerDimenstions;
   });
 

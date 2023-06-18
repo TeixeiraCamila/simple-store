@@ -3,186 +3,76 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="css/home.css">
-  <title>Clothing - Best Store Online</title>
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/product.css">
+  <title>Product - </title>
 </head>
 
 <body>
-
   <nav class="navbar"></nav>
-
   <main class="container">
-    <section class="hero_section">
-      <div class="hero_section_content">
-        <img src="./img/light-logo.png" alt="Logo - light version" class="logo">
-        <p class="sub_heading">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, itaque velit blanditiis omnis praesentium
-          doloremque facilis non quo?
-        </p>
+    <section class="product_details_container">
+      <div class="image_slider">
+        <div class="slider_images">
+          <img src="./img/product/card_01.jpg" class="active" alt="">
+          <img src="./img/product/card_02.jpg" alt="">
+          <img src="./img/product/card_03.jpg" alt="">
+          <img src="./img/product/card_04.jpg" alt="">
+        </div>
       </div>
-    </section>
-    <!--  VITRINE -->
-    <section class=" wrapper_product_container best-selling">
+      <div class="product_details">
+        <h2 class="product_brand">Dr. Martens</h2>
+        <p class="product_short_desc">
+          The 1460 is the original Dr. Martens boot.
+        </p>
+        <span class="procuct_price">$189.00</span>
+        <span class="procuct_actual_price">$95.00</span>
+        <span class="procuct_discount">( 49% off )</span>
 
-      <h2 class="product_category"> best selling </h2>
 
-      <button class="prev_btn"><img src="./img/arrow.png" alt=""></button>
-      <button class="next_btn"><img src="./img/arrow.png" alt=""></button>
+        <div class="procuct_att">
+          <p class="product_sub_heading">select size</p>
+          <input type="radio" name="size" value="36" id="36-size" hidden checked>
+          <label for="36-size" class="size_radio_button checked">36</label>
 
-      <div class="product_container">
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_01.png" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              EZwear Cordão Bolso Coração Slogan ocasional Suéter
-            </p>
-            <span class="procuct_price">$84,00</span>
-            <span class="procuct_actual_price">$97,95</span>
-          </div>
+          <input type="radio" name="size" value="37" id="37-size" hidden>
+          <label for="37-size" class="size_radio_button">37</label>
+
+          <input type="radio" name="size" value="38" id="38-size" hidden>
+          <label for="38-size" class="size_radio_button">38</label>
+
+          <input type="radio" name="size" value="39" id="39-size" hidden>
+          <label for="39-size" class="size_radio_button">39</label>
         </div>
 
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_02.png" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              EZwear Moletons Padrão de gato e slogan Revestido térmico
-            </p>
-            <span class="procuct_price">$63,99</span>
-            <span class="procuct_actual_price">$63,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_03.jpg" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              EZwear Moletons Padrão de gato e slogan Revestido térmico
-            </p>
-            <span class="procuct_price">$63,99</span>
-            <span class="procuct_actual_price">$63,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_04.jpg" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              Unity Moletons gráfico floral e slogan revestido térmico
-            </p>
-            <span class="procuct_price">$61,99</span>
-            <span class="procuct_actual_price">$81,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_05.png" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              Pulôver Térmico Padrão de flores e letras
-            </p>
-            <span class="procuct_price">$61,99</span>
-            <span class="procuct_actual_price">$81,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_06.jpg" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              EZwear Moletons carta & estampa de cachorro revestido térmico
-            </p>
-            <span class="procuct_price">$61,99</span>
-            <span class="procuct_actual_price">$81,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_07.png" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              EZwear Moletons Bordado floral Revestido térmico
-            </p>
-            <span class="procuct_price">$61,99</span>
-            <span class="procuct_actual_price">$81,99</span>
-          </div>
-        </div>
-
-        <div class="product_card">
-          <div class="product_image">
-            <span class="product_discount">50% off</span>
-            <img src="./img/vitrines/best_selling/card_08.png" alt="">
-            <button class="product_btn">add to whislist</button>
-          </div>
-          <div class="product_info">
-            <h2 class="procuct_brand_name">brand</h2>
-            <p class="procuct_short_desc">
-              Unity Moletons gráfico de desenho animado revestido térmico
-            </p>
-            <span class="procuct_price">$61,99</span>
-            <span class="procuct_actual_price">$81,99</span>
-          </div>
-        </div>
+        <button class="btn add_to_cart">add to cart</button>
+        <button class="btn add_to_whislist">add to whislist</button>
       </div>
     </section>
 
-    <!-- GALERIA   -->
-    <section class="collection_container">
-      <a href="" class="collection">
-        <img src="./img/women_collection.jpg" alt="">
-        <p class="collection_title">
-          <img src="./img/women apparels.png" alt="">
-        </p>
-      </a>
-      <a href="" class="collection">
-        <img src="./img/men_collection.jpg" alt="">
-        <p class="collection_title">
-          <img src="./img/men apparels.png" alt="">
-        </p>
-      </a>
-      <a href="" class="collection">
-        <img src="./img/accesories_collection.jpg" alt="">
-        <p class="collection_title">
-          <img src="./img/accessories.png" alt="">
-        </p>
-      </a>
+    <section class="product_description">
+      <h2 class="heading">
+        description
+      </h2>
+      <p class="desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam omnis quasi at atque suscipit!
+        Molestiae commodi obcaecati, quo magnam nostrum accusamus! Fugiat, cumque quibusdam asperiores incidunt vel iste
+        maxime.
+        Qui necessitatibus officia voluptatum assumenda a dignissimos ducimus suscipit voluptate voluptas sunt illo
+        maxime
+        optio aperiam voluptatibus fugiat enim repellendus totam, reiciendis praesentium culpa tempore! Nobis beatae et
+        soluta non!
+        Esse tempora sed sit quasi, asperiores iste in tempore? Officiis, temporibus. Optio aspernatur modi error unde
+        sequi voluptatibus blanditiis distinctio excepturi sit voluptate nihil magni saepe, quis laboriosam omnis
+        voluptates!
+        Sequi fugiat facere facilis consequatur adipisci earum esse dolor laborum. Quidem qui sed, ipsam ex et similique
+        culpa debitis facere voluptatibus magnam tenetur nihil explicabo odit quaerat tempore quisquam excepturi.
+        Voluptatum laudantium iusto autem ipsam exercitationem mollitia, et, earum ratione ab est quisquam, eveniet
+        eaque
+        voluptatibus. Nobis ducimus laudantium adipisci! Quibusdam aliquid placeat quos deleniti nesciunt at tempore
+        aperiam molestias!
+      </p>
     </section>
 
     <!--  VITRINE -->
@@ -324,6 +214,7 @@
       </div>
     </section>
 
+
     <!--  VITRINE -->
     <section class=" wrapper_product_container">
 
@@ -458,13 +349,11 @@
       </div>
     </section>
   </main>
-
   <footer class="footer"></footer>
-
   <script src="./js/nav.js"></script>
-  <script src="./js/home.js"></script>
   <script src="./js/footer.js"></script>
-
+  <script src="./js/home.js"></script>
+  <script src="./js/product.js"></script>
 </body>
 
 </html>
